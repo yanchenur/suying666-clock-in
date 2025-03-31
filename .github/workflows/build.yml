@@ -3,7 +3,7 @@ on:
   push:
     branches: [ master ]
   schedule:
-    - cron: '31 6 * * *'
+    - cron: '01 0 * * *'
 jobs:
   build:
     name: Suying666-clock-in by GitHub Actions
